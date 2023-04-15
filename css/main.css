@@ -1,0 +1,14 @@
+@media(max-width:500px)
+{
+    .main li , .book , a{display: none;}
+    .content .i3{display: none;}
+    .content .i5{display:none;}
+
+    .content{height: 1200px;}
+
+    .content .content1{background-position: 100% 100%;}
+
+    .article .i3 , .i4 , .i5 , .i6{display: none;}
+
+    
+}

@@ -1,0 +1,191 @@
+*{box-sizing: border-box;}
+
+
+.main
+{
+    border: 2px solid;
+    /* height: 150px; */
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+
+
+.main li
+{
+   display: inline;
+   margin-right: 30px;
+}
+
+.main a
+{
+    font-size: 20px;
+    transition: .3s;
+    color: gray;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.main .book 
+{
+    height: 50px;
+    width: 100px;
+    background: darkgray;
+    /* border: 2px solid lightpink; */
+    font-size: 20px;
+    text-align: center;
+    padding: 13px;
+    transition: .3s;
+
+}
+
+.main .book:hover
+{
+    background-color:darkslateblue;
+    color: white;
+}
+.main a:hover{
+    color: lightgoldenrodyellow;
+}
+
+.main i 
+{
+    font-size: 30px;
+}
+
+
+/* .main .finishes .here */
+
+
+/* .content .starts .here */
+
+
+
+.content
+{
+    height: 700px;
+    background: rgb(210, 152, 152);
+    border: 2px solid;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.content img
+{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.content1
+{
+    /* height: 700px; */
+    width: 80%;
+    border: 2px solid;
+    /* background: thistle; */
+    position: absolute;
+    top: 0;
+    left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px 0px;
+}
+.content1 
+{
+  
+  background: url(https://html.vecurosoft.com/wellnez/demo/assets/img/hero/hero-flower.png);
+  background-repeat: no-repeat;
+    
+}
+
+
+.content1 .i2
+{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.content1 .i3
+{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+
+
+.content1 .i5
+{
+    position: absolute;
+    top: 21%;
+    left: 45%;
+}
+
+.content1 .box
+{
+    height: 450px;
+    width: 250px;
+    background: white;
+    border: 2px solid;
+    margin-right: 90px;
+    margin-left: -70px;
+    position: relative;
+    text-align: center;
+
+}
+
+.content1 .box .bi2
+{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.content1 .box .wp1
+{
+    height: 60px;
+    width: 100%;
+    background:brown;
+    border: 2px solid;
+    position: absolute;
+    top: 86.5%;
+    left: 0;
+    color: white;
+    
+
+}
+
+.content1 .box .wp2
+{
+    height: 60px;
+    width: 100%;
+    background: rgb(137, 136, 136);
+    border: 2px solid;
+    position: absolute;
+    top: 86.5%;
+    left: 0;
+    color: white;
+    
+
+ }
+ 
+ .article
+{
+    height: 200px;
+    background: #9a563a;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+
